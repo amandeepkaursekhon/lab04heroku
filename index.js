@@ -1,9 +1,9 @@
 var SERVER_NAME = 'user-api'
 var PORT = process.env.PORT;
 
-//
-var restify = require('restify')
 
+var restify = require('restify')
+//
   // Get a persistence engine for the users
   , usersSave = require('save')('users')
 //
