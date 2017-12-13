@@ -6,7 +6,7 @@ var restify = require('restify')
 
   // Get a persistence engine for the users
   , usersSave = require('save')('users')
-
+//
   // Create the restify server
   , server = restify.createServer({ name: SERVER_NAME})
 
