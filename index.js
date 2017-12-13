@@ -1,7 +1,7 @@
 var SERVER_NAME = 'user-api'
 var PORT = process.env.PORT;
 
-
+//
 var restify = require('restify')
 
   // Get a persistence engine for the users
@@ -27,7 +27,7 @@ server
 // Get all users in the system
 server.get('/users', function (req, res, next) {
 
-  // Find every entity within the given collection
+  //Find every entity within the given collection
   usersSave.find({}, function (error, users) {
 
     // Return all of the users in the system
